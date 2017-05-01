@@ -1,0 +1,15 @@
+{% extends "base2.html" %}
+
+{% block content %}
+
+<h1> Quotes by {{ author }} </h1>
+
+<ul style="list-style: none">
+{% for result in results %}
+<li><blockquote>"{{ result.quote_text }}"</blockquote></li>
+{% endfor %}
+</ul>
+
+<a href="https://en.wikipedia.org/wiki/{{ author }}" style="color:yellow">Learn more about {{ author }}</a></p>
+
+{% endblock content %}

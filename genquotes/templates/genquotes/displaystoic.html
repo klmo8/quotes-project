@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>{{ randomstoic.author }}</h1>
+<blockquote><p>"{{ randomstoic.quote_text }}"</p></blockquote>
+
+<a href="https://en.wikipedia.org/wiki/{{ randomstoic.author }}" style="color:yellow">Learn more about {{ randomstoic.author }}</a></p>
+
+{% endblock content %}
