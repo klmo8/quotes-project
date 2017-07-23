@@ -2,14 +2,21 @@
 
 {% block content %}
 
-<h1> Quotes by {{ author }} </h1>
+<div class="author">
+  <h1 class="author-title">Quotes by {{ author }}</h1>
+</div>
+
 
 <ul style="list-style: none">
-{% for result in results %}
-<li><blockquote>"{{ result.quote_text }}"</blockquote></li>
-{% endfor %}
+  {% for result in results %}
+  <div class="spaced-row">
+    <li><blockquote><p>{{ result.quote_text }}</p></blockquote></li>
+    <hr></hr>
+  </div>
+  {% endfor %}
 </ul>
 
-<a href="https://en.wikipedia.org/wiki/{{ author }}" style="color:yellow">Learn more about {{ author }}</a></p>
-
+<div class="footlink">
+  <p><a class="wikilink" href="https://en.wikipedia.org/wiki/{{ author }}">Learn more about {{ author }}</a></p>
+</div>
 {% endblock content %}

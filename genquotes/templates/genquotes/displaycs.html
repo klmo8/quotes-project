@@ -1,10 +1,10 @@
 {% extends 'genquotes/base.html' %}
 {% block content %}
 
-<h1>{{ randomcs.author }}</h1>
+<h1 class="author-title">{{ randomcs.author }}</h1>
 <blockquote><p>{{ randomcs.quote_text }}</p></blockquote>
 
-<a class=wikilink href="https://en.wikipedia.org/wiki/{{ randomcs.author }}" style="color:yellow">Learn more about {{ randomcs.author }}</a></p>
+<div class="footlink">
+  <p><a class="wikilink" href="https://en.wikipedia.org/wiki/{{ author }}">Learn more about {{ randomcs.author }}</a></p>
 </div>
-
 {% endblock content %}

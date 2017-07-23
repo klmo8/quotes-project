@@ -17,7 +17,10 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    # Allows users to go to any of the subpages directly from the route rather than having to preface it with /quotes/.
+    # Note that "include" just roots a set of urls (those in genquotes.url) below those which are including them.
     url(r'^', include('genquotes.urls')),
+    # Creates the path quotes/'subpage' from the root.
     url(r'^quotes/', include('genquotes.urls')),
     url(r'^admin/', admin.site.urls),
 

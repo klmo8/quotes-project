@@ -1,0 +1,62 @@
+.nav-link {
+  display: none;
+}
+
+.wikilink, .author-title {
+  color: yellow;
+}
+
+.spaced-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25px;
+}
+
+.author {
+  margin-top: 100px;
+}
+
+.footlink {
+  margin-bottom: 100px;
+}
+
+@media (min-width: 992px) {
+  .lead, .nav-link, p {
+    font-size: 2em;
+  }
+  .masthead-brand {
+    font-size: 3em;
+  }
+  h1 {
+    font-size: 4em;
+  }
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .lead, .nav-link, .wikilink, p {
+    font-size: 1.5em;
+  }
+  .masthead-brand {
+    font-size: 2.5em;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+@media (max-width:767px) {
+  .lead, .nav-link, .wikilink, p {
+    font-size: 1.3em;
+  }
+  .masthead-brand {
+    font-size: 2.3em;
+  }
+  h1 {
+    font-size: 3.3em;
+  }
+}
