@@ -9,7 +9,7 @@ A simple web app that finds and displays curated quotes from famous computer sci
 
 ## Description
 
-This project was used to introduce me to the Django framework. Previously, I had minimal web development experience (beyond basic HTML/CSS). This project introduced me to concepts of function-based views, url routing, template inheritance, and other features of the framework. Although it could benefit from many additions, I will probably let this project R.I.P as I move onto bigger and better things. If interested, check out my 2nd Django project (Podcast Sharing App) to see my evolution as a web developer.  
+This project introduced me to the Django framework. Previously, I had minimal web development experience beyond basic HTML and CSS. This project introduced me to many Django concepts, including function-based views, url routing, and template inheritance. Although it could be improved, I will likely consider this project finished. If interested, check out my 2nd Django project (Podcast Sharing App) to see my evolution as a web developer.  
 
 ### Prerequisites
 
