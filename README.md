@@ -9,7 +9,7 @@ A simple web app that finds and displays curated quotes from famous computer sci
 
 ## Description
 
-This was a beginner project that introduced me to MVC, the Django framework, and web development in general. Although it could be improved in many ways, I will let this project Rest in Peace, as there are many more interesting things to be working on instead of a quote generator! If interested, check out my 2nd Django project (Podcast Sharing App) to see my evolution as a web developer.  
+This was a beginner project that introduced me to MVC, the Django framework, and web development in general. I am preserving it as a reminder of just how far I've come since my early days as a developer. Although it could be improved in many ways, I will let this project rest in peace, as there are many more interesting things to be working on instead of a quote generator! If interested, check out my 2nd Django project (Podcast Sharing App) to see my evolution as a web developer.  
 
 ### Prerequisites
 
